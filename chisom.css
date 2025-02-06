@@ -1,0 +1,48 @@
+body{
+    background-color: blueviolet;
+}
+.img{
+    border-radius: 200px;
+    float: left;
+    
+}
+.head{
+    background-color: aqua;
+
+}
+.ul{
+    display: flex;
+    list-style-type: none;
+    gap: 50px;
+    align-items: center;
+    text-align: right;
+    margin-left: 900px;
+    font-size: 38px;
+    
+}
+.nav{
+  margin: 0%;
+  padding: 0%;
+  display: inline-block;
+}
+.list{
+    color: rgb(144, 165, 173);
+}
+.searchbt{
+    font-size: 29px;
+    border-radius: 50px;
+}
+.h1{
+    font-size: 50px;
+}
+.p{
+    font-size: 20px;
+}
+.design{
+    background-color: azure;
+    display: grid;
+    
+}
+.bt{
+    border-radius: 50px;
+}
