@@ -1,0 +1,26 @@
+body{
+    background: linear-gradient(106.5deg, rgba(255, 215, 185, 0.91) 23%, rgba(223, 159, 247, 0.8) 93%);
+}
+.head{
+  background-color: antiquewhite;  
+}
+.ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    font-size: 50px;
+}
+.nav{
+   align-items: center; 
+}
+.img{
+    margin-right: auto;
+    border-radius: 80px;
+    width: 250px;
+    height: 150px;
+    border: 1px;
+}
+.items{
+    padding-top: 50px;
+    padding-right: 50px;
+}
