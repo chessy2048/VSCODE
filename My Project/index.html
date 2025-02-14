@@ -64,23 +64,32 @@
 }
 .container{
   position: relative;
- padding-right: 50px;
 }
-.container .content{
-  position: absolute;
-  bottom: 0;
-  background-color: black;
-  opacity: 0.6;
-  width: 1500px;
-  height: 700px;
-}
+
+
 .but{
-  border-radius: 50px;
+  border-radius: 30px;
   font-size: 40px;
+  margin: 20px;
 }
 .but:hover{
    background-color: aquamarine;
 }
+.link{
+  position: relative;
+  
+
+}
+.link .hyper{
+   position: absolute;
+   width: 1700px;
+   background-color: rgb(27, 26, 24);
+   opacity: 0.6;
+   height: 650px;
+   left: 0;
+   right: 0;
+}
+
 
 </style>
 <body>
@@ -134,23 +143,23 @@
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
-        <div class="carousel-inner" style="padding: 20px;border-radius: 80px;">
-          <div class="carousel-item active">
-            <img src="https://th.bing.com/th/id/OIP.eeFbGMnNjam9PfKG2m1AJAHaE8?rs=1&pid=ImgDetMain" class="d-block w-100" style="width:1200px ;height: 600px;" alt="...">" 
-            <div class="carousel-caption d-none d-md-block">
-              <h2 class="h2" style="font-size: 100px;padding-bottom: 120px;color: rgb(110, 102, 102);padding-right: 1000px;">Authorised drug prescription</h2>
+        <div class="carousel-inner" style="border-radius: 20px;padding: 15px;">
+          <div class="link carousel-item active">
+            <img src="https://th.bing.com/th/id/OIP.eeFbGMnNjam9PfKG2m1AJAHaE8?rs=1&pid=ImgDetMain" class="d-block w-100" style="width:1000px ;height: 600px;" alt="...">" 
+            <div class="hyper carousel-caption d-none d-md-block">
+              <h2 class="h2" style="font-size: 80px;padding-top: 220px;text-align: left;padding-left: 20px; color: white;font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">Authorised drug<br> prescription</h2>
             </div>
           </div>
-          <div class="carousel-item">
+          <div class="link carousel-item">
             <img src="https://th.bing.com/th/id/OIP.IlKECLoZEAQdTvlK34zDNAHaEK?rs=1&pid=ImgDetMain" class="d-block w-100" style="width:1200px ;height: 600px;" alt="...">" 
-            <div class="carousel-caption  d-none d-md-block">
-              <h2 class="h2" style="font-size: 100px;padding-bottom: 120px;padding-right: 1000px;">Reliable Health Consultation</h2>
+            <div class="hyper carousel-caption  d-none d-md-block">
+              <h2 class="h2" style="font-size: 80px;padding:20px;padding-top: 220px;text-align: left;font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">Reliable Health<br> Consultation</h2>
             </div>
           </div>
-          <div class="carousel-item">
+          <div class="link carousel-item">
             <img src="https://cdn.britannica.com/76/82676-050-E95B5C00/nurses-patients-care-procedures.jpg" class="d-block w-100" style="width:1200px ;height: 600px;" alt="...">" 
-            <div class="carousel-caption d-none d-md-block">
-              <h2 class="h2" style="font-size:100px;padding-bottom: 120px;padding-right: 1000px;">Surgical Remedies</h2>
+            <div class="hyper carousel-caption d-none d-md-block">
+              <h2 class="h2" style="font-size:80px;padding:20px;padding-top: 220px;text-align: left;font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">Surgical<br> Remedies</h2>
             </div>
           </div>
         </div>
@@ -219,23 +228,48 @@
            
     </div>
 
-    <div class="text" style=" display: flex;padding:20px;margin: 20px;margin-left: 20px;">
+    <div class="text" style=" display: flex;padding:20px;">
       <div class="word" style="padding-left: 20px;">
       <img src="https://www.verywellhealth.com/thmb/uDVW-3-ut4oU_E_Nipnorps9OAA=/900x0/filters:no_upscale():max_bytes(150000):strip_icc()/image-56a72b015f9b58b7d0e7834f.jpg" width="600px" height="300px" alt="">
     </div>
-      <div class="word" style="padding-left: 80px;">
+      <div class="press" style="padding-left: 80px;padding-top: 30px;">
      <a class="h1" style="color: blue;text-decoration: none;" href="#">How To Strengthen And Revive<br>Weakened Bones</a>
       <p class="para" style="font-size: 30px;" >Discover and learn how to protect your bones health.</p>
     </div>
     </div>
-   
-  <div class="container">
-  <img class="p" style="padding: 20px;" src="https://th.bing.com/th/id/OIP.BzrmnADEcozvAn6I5ul50gHaE8?rs=1&pid=ImgDetMain" width="1500px" height="700px" alt="">
- 
-<div class="content">
-<h2 class="doc" style="color: rgb(249, 252, 253);font-size: 70px;padding: 200px;">Need information as<br> a medical student<br> or aspiring medical doctor?<br><button class="but">Learn More</button></h2>
 
-</div>
+    <div class="get" style="background-color: rgb(35, 143, 107);">
+    <div style="display: flex;">
+      <div class="ask" style="align-items: center;text-align: left;padding-top: 150px;padding-left: 10px;">
+        <h1 style="color: azure;">Here,there is;</h1>
+       <hr style="border: 2px solid;width: 90%;">
+        <li style="font-size: 30px;padding-right: 20px;color: rgb(252, 251, 250);">Counsel as to which course and assist with academic aspect of medicine and healthcare.</li>
+        <hr style="border: 2px solid;width: 90%;">
+        <li style="font-size: 30px;padding-right: 20px;color: rgb(252, 251, 250);">Connect with others  in the medical field across the globe</li>
+        <hr style="border: 2px solid;width: 90%;">
+        <li style="font-size: 30px;padding-right: 20px;color: rgb(252, 251, 250);">Access to legal resources on health sciences.</li>
+      </div>
+      <div >
+        <h3 style="font-size: 50px;padding-top: 10px;color: beige;">Need information as a student <br>or aspiring medical personnel?</h3>
+        <img style="width: 700px;height: 500px;padding-top:30px ;" src="https://th.bing.com/th/id/OIP.K-magro33oP1HML5vJHdoAHaFW?rs=1&pid=ImgDetMain" alt="">
+      </div>
+    </div>
+    </div>
+    
+
+
+<h2 class="beck" style="background-color: rgb(230, 236, 236);text-align: center;height: 100px;padding: 20px;margin: 10px;">Health-related organizations.</h2>
+
+
+
+<div class="able" style="margin: 10px;margin-left: 40px; align-items: center;display: grid;padding: 20px;text-align: center;">
+  <div class="more">
+   <img src="https://cdn.siasat.com/wp-content/uploads/2020/05/UNICEF.jpg" width="150px" alt="">
+   <img src="https://news.sophos.com/wp-content/uploads/2020/03/shutterstock_1658523400-compressor.jpg?w=640" width="220px" alt="">
+   <img src="https://th.bing.com/th/id/OIP.DoRtd7zaAcqYUI3w5xxYrwHaEo?rs=1&pid=ImgDetMain" width="180px"
+    alt="">
+    <img src="https://th.bing.com/th/id/R.849c7a8ae105f5057f3361146e596690?rik=Oc279f7UWIpBow&pid=ImgRaw&r=0" width="200px" alt="">
+  </div>
 </div>
 
 
